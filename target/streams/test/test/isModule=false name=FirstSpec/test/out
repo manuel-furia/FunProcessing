@@ -1,0 +1,73 @@
+[info] FirstSpec:
+[info] Simple expression 3 + 4
+[info] - should be 7.0
+[info] Simple expression 3-4
+[info] - should be -1.0
+[info] Simple expression 3- 4
+[info] - should be -1.0
+[info] Simple expression 3*4
+[info] - should be 7.0
+[info] Simple expression 3i + 4
+[info] - should be 4 + 3i
+[info] Simple expression 3i*4 + 3*4
+[info] - should be 12 + 12i
+[info] Simple expression i + 0.5i*4 + 3*0.5
+[info] - should be 1.5 + 3i
+[info] Variable expression i + 0.5i*4 + x
+[info] - should be 5 + 3i
+[info] Variable expression i + 0.5i*4 + 3 x
+[info] - should be 15 + 3i
+[info] Variable expression i + 0.5i*4 + 3x
+[info] - should be 15 + 3i
+[info] Complex variable expression z + i + 0.5i*4 + 2z
+[info] - should be 5 + 3i
+[info] Exponential 4^3
+[info] - should be 64
+[info] Exponential 36^0.5
+[info] - should be 6
+[info] Exponential (2^2) (3^3)
+[info] - should be 108
+[info] Exponential 2^2*3^3
+[info] - should be 108
+[info] Exponential e^pi
+[info] - should be printable
+[info]   + 23.140692632779263 
+[info] Exponential e^i
+[info] - should be printable
+[info]   + 0.5403023058681398+0.8414709848078965i 
+[info] Exponential i^3i
+[info] - should be printable
+[info]   + 0.008983291021129432 
+[info] Simple brackets (3 + 4)
+[info] - should be 7.0
+[info] Simple brackets 3*(4+5)
+[info] - should be 27.0
+[info] Simple expression i^(3i)
+[info] - should be printable
+[info]   + 0.008983291021129432 
+[info] Nested brackets 3 * (4 * (3 - 2))
+[info] - should be 12
+[info] Nested brackets 3 * (4 * (3 - 2) + (2 - 3))
+[info] - should be 9
+[info] Nested brackets with variables and constants 3 * (i * (3i - 2i) + (2 - 3))
+[info] - should be -6
+[info] Simple function definition and call f [x] = x + 3 -> f[3+3]-1
+[info] - should be 8
+[info] Simple function definition and call f [x] = x + 3 if x >= 0; x - 3 if x < 0 -> f[1], f[-1]
+[info] - should be 4, -4
+[info] Builtin function 3 + max[2, 4]
+[info] - should be 7
+[info] Builtin function 3 + max[4+1, -7]
+[info] - should be 8
+[info] Random numbers between 1 and 10
+[info] - should be printable
+[info]   + 3.144428553096235 
+[info]   + 8.226935332262403 
+[info]   + 4.17205581408812 
+[info]   + 2.691643296592583 
+[info] Random complex numbers
+[info] - should be printable
+[info]   + -0.06029657569201907-0.34738363139197403i 
+[info]   + -0.5862465855717318+0.9641536543089422i 
+[info]   + -0.739161225660268-0.050776424817250865i 
+[info]   + 0.13640639551383793-0.2390779552590192i 

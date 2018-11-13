@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.processing:core:3.3.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.processing/core/jars/core-3.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.processing/core/srcs/core-3.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

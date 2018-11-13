@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.processing:net:3.3.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.processing/net/jars/net-3.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.processing/net/srcs/net-3.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.sonatype.sisu:sisu-inject-plexus:1.4.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.sonatype.sisu/sisu-inject-plexus/bundles/sisu-inject-plexus-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.sonatype.sisu/sisu-inject-plexus/srcs/sisu-inject-plexus-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
